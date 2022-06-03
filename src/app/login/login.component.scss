@@ -1,0 +1,50 @@
+.logo {
+    padding: 10% 0;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+
+    img {
+        box-shadow: 0px 0px 7px 0.1px #f5f5f57d;
+        border-radius: 50px;
+    }
+
+    h1 {
+        text-shadow: 0px -1px 7px #ffffff;
+    }
+}
+
+.mat-form-field, .mat-raised-button {
+    width: 70%;
+}
+
+::ng-deep app-login .mat-form-field-appearance-outline .mat-form-field-flex {
+    border: 0.2px solid rgb(0 0 0 / 20%);
+    border-radius: 50px;
+    opacity: 1;
+    box-shadow: inset 5px 4px 5px 0px #0000007d;
+  
+    .mat-form-field-outline-start,
+    .mat-form-field-outline-gap,
+    .mat-form-field-outline-end {
+        border: none;
+    }
+  
+    .mat-form-field-infix {
+        padding: 0.5em 1em 1em 1em;
+    }
+}
+
+::ng-deep app-login .mat-grid-tile-column .mat-grid-tile-content {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+div.social {
+    width: 100%;
+    text-align: center;
+
+    button {
+        margin: 10px;
+    }
+}
